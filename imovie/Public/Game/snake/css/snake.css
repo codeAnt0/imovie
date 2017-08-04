@@ -1,0 +1,75 @@
+span{
+    font-weight: bold;
+}
+body{
+    background-image: url(../image/bj.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+}
+#mainWindow{
+    width: 616px;
+    height: 616px;
+    background: url("../image/back.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+#score{
+    width: 90px;
+    height: 42px;
+    position: absolute;
+    z-index: 99;
+}
+#hintShow{
+    position: absolute;
+    z-index: 99;
+    color: orangered;
+    font-size: 38px;
+    text-shadow: 5px -2px 2px #424242;
+    display: none;
+}
+#head{
+    width: 22px;
+    height: 22px;
+    background: greenyellow;
+    border-radius: 14px;
+    position: absolute;
+}
+.snakeBody{
+    width: 22px;
+    height: 22px;
+    background:white;
+    border-radius: 14px;
+    position: absolute;
+}
+.eye1{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background:black;
+    float: left;
+    margin-left:4px;
+}
+.eye2{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: black;
+    float: left;
+    margin-left:4px;
+    margin-top: 16px;
+}
+.eye3{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background:black;
+    margin-left:1px;
+    margin-top: 4px;
+}
+.eye4{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background:black;
+    margin-left:17px;
+    margin-top: 4px;
+}
